@@ -1,0 +1,4 @@
+1 sudo pacman -S linux-headers
+2 create Makefile
+3 make
+4 modprobe main.ko
