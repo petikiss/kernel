@@ -1,4 +1,8 @@
+0 find /usr/lib/ -name \*.h -o -name \*.c | etags -
 1 sudo pacman -S linux-headers
 2 create Makefile
 3 make
-4 modprobe main.ko
+4 insmod main.ko
+5 dmesg
+6 rmmod main.ko
+
